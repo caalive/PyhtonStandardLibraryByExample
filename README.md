@@ -1,4 +1,4 @@
-#Python标准库学习
+# Python标准库学习
 ## 第一章 文本
 ### capwords()函数 
 - 作用 
@@ -6,11 +6,12 @@
 - 实现方式
 	- 将一串字符以空格或者以指定的分隔符分隔，然后调用join函数输出
 	- 实现代码
-		```
+	
+	```
 	def capwords(s, sep=None):
-    return (sep or ' ').join(x.capitalize() 
-    for x in 	s.split(sep))
-		```
+    	return (sep or ' ').join(x.capitalize() 
+    	for x in s.split(sep))
+	```
 - 示例程序如下：
 
 ```
